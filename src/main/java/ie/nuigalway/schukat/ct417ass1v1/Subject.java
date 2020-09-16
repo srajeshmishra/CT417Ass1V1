@@ -35,4 +35,8 @@ public class Subject {
         return this.name;
     }
     
+    public HashSet<Student> getStudents() {
+        return this.subjectStudents;
+    }
+    
 }

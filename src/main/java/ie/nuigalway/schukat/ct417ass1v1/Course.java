@@ -44,4 +44,12 @@ public class Course {
         return this.name;
     }
         
+    public HashSet<Subject> getSubjects() {
+        return this.courseSubjects;
+    }
+        
+    public HashSet<Student> getStudents() {
+        return this.courseStudents;
+    }
+        
 }
